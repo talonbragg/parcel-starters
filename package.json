@@ -1,0 +1,14 @@
+{
+  "name": "parcel-starters",
+  "version": "0.1.0",
+  "description": "Parcel starters",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html -p 2020 --open",
+    "build": "parcel build index.html",
+    "clean": "rm -rf .cache && rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Scott Spence <spences10apps@gmail.com>",
+  "license": "MIT"
+}
