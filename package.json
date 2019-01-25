@@ -10,5 +10,10 @@
   },
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
+  }
 }
