@@ -6,12 +6,10 @@ const Wrapper = styled.div`
   color: #fff;
 `
 
-const Layout = props => {
+const Layout = ({ children }) => {
   return (
     <React.Fragment>
-      <Wrapper>
-        <p>jsx goes here</p>
-      </Wrapper>
+      <Wrapper>{children}</Wrapper>
     </React.Fragment>
   )
 }
